@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Auth extends BaseController
 {
     public function index()
     {
@@ -14,9 +14,5 @@ class Home extends BaseController
         return view ('auth/login_guru',$data);
 
     }
-    public function guru(){
-        $data['title']=" Guru";
-        return view ('guru/index',$data);
-
-    }
+    
 }

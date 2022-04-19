@@ -206,7 +206,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                   
+                    <?=$this->renderSection('content')?>
 
                 </div>
                 <!-- /.container-fluid -->
