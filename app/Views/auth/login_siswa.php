@@ -20,13 +20,14 @@
                                        
                                         <h2 class="h5 text-dark mb-n2"> Aplikasi Ulangan Daring </h2>
                                         
-                                        <h1 class="h1 text-primary  mb-n1 smk"> SMK VETERAN </h1>
+                                        <h1 class="h1 text-primary  mb-n1 smk"> SMK VETERAN2 </h1>
                                         <h2 class="h6 text-gray-900 mb-1">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
+                                            <label for="InputName">Masukkan NISN</label>
                                             <input type="text" class="form-control form-control-user"
-                                                id="InputUsername" aria-describedby="emailHelp"
+                                                id="InputUsername" 
                                                 placeholder="NISN">
                                         </div>
                                         <div class="form-group">
