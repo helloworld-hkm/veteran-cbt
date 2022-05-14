@@ -17,26 +17,25 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                       <img src="./img/logo-veteran.jpg" class="img-fluid"alt="" width="15%">
+                                       
+                                    <img src="./img/logo-veteran.jpg" class="img-fluid"alt="" width="15%">
                                         <h2 class="h5 text-dark mt-2 mb-n1"> SMK VETERAN PEKALONGAN </h2>
                                         <h2 class="h6 text-gray-900 mb-3">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
                                     
                                         
-                                        <h1 class="h2 text-primary  f-1 mb-4"> <b>Sistem Ulangan Daring </b></h1>
+                                        <h1 class="h2 text-primary  f-1 mb-4"> <b>Login In to Veteran-CBT</b></h1>
                                        
                                     
-                                        </div>
+                                    </div>
                                     <form class="user">
                                         <div class="form-group">
-                                            <label for="InputName">NISN</label>
-                                            <input type="text" class="form-control p-2"
-                                                id="InputUsername" 
-                                                placeholder=" masukkan nisn disini...">
+                                            <input type="text" class="form-control form-control-user"
+                                                id="InputUsername" aria-describedby="emailHelp"
+                                                placeholder="Admin User">
                                         </div>
                                         <div class="form-group">
-                                        <label for="InputName">KATA SANDI</label>
-                                            <input type="password" class="form-control p-2"
-                                                id="exampleInputPassword" placeholder=" masukkan  Kata Sandi disini...">
+                                            <input type="password" class="form-control form-control-user"
+                                                id="exampleInputPassword" placeholder="Password">
                                         </div>
                                         <div class="form-group">
                                             <!-- <div class="custom-control custom-checkbox small">
@@ -45,7 +44,7 @@
                                                     Me</label>
                                             </div> -->
                                         </div>
-                                        <a href="index.html" class="btn btn-primary  btn-block">
+                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
                                             Masuk
                                         </a>
                                         

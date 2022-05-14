@@ -14,5 +14,10 @@ class Auth extends BaseController
         return view ('auth/login_guru',$data);
 
     }
+    public function login_admin(){
+        $data['title']="Login Admin";
+        return view ('auth/login_admin',$data);
+
+    }
     
 }

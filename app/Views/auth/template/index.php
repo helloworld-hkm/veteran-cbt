@@ -21,12 +21,17 @@
     <link href="<?=base_url();?>/css/sb-admin-2.css" rel="stylesheet">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 </head>
 <style>
-    .smk{
-        font-family: 'Paytone One', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+    .f-1{
+        font-family: 'Noto Sans', sans-serif;
     }
+    .smk{
+        font-family: 'Noto Sans', sans-serif;
 </style>
 
 <body class="bg-gradient-light">

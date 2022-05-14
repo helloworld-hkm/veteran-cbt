@@ -33,7 +33,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Auth::index');
 $routes->get('/guru','Auth::login_guru');
-$routes->get('/guru/home','guru::index');
+$routes->get('/admin','Auth::login_admin');
+$routes->get('/guru/home','Guru::index');
+$routes->get('/admin/home','Admin::index');
 
 /*
  * --------------------------------------------------------------------

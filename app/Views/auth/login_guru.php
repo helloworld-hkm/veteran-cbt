@@ -6,7 +6,7 @@
         <!-- Outer Row -->
         <div class="row justify-content-center">
            
-            <div class="col-xl-6 col-lg-6 col-md-8 mb-n4 mt-5">
+            <div class="col-xl-6 col-lg-6 col-md-8 mb-n4">
                 
 
                 <div class="card o-hidden border-0 bg-blur shadow-lg my-5">
@@ -18,10 +18,14 @@
                                 <div class="p-5">
                                     <div class="text-center">
                                        
-                                        <h2 class="h5 text-dark mb-n2"> Aplikasi Ulangan Daring </h2>
+                                    <img src="./img/logo-veteran.jpg" class="img-fluid"alt="" width="15%">
+                                        <h2 class="h5 text-dark mt-2 mb-n1"> SMK VETERAN PEKALONGAN </h2>
+                                        <h2 class="h6 text-gray-900 mb-3">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
+                                    
                                         
-                                        <h1 class="h1 text-primary  mb-n1 smk"> SMK VETERAN </h1>
-                                        <h2 class="h6 text-gray-900 mb-1">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
+                                        <h1 class="h2 text-primary  f-1 mb-4"> <b>Sistem Ulangan Daring </b></h1>
+                                       
+                                    
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
