@@ -32,7 +32,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-icon r">
                     <i class="fas fa-school"></i>
                 </div>
@@ -89,7 +89,7 @@
                         <h6 class="collapse-header">Relasi:</h6>
                         <a class="collapse-item" href="utilities-color.html">Guru - Kelas</a>
                         <a class="collapse-item" href="utilities-border.html">Mata Pelajaran - Jurusan</a>
-                       
+
                     </div>
                 </div>
             </li>
@@ -104,7 +104,7 @@
                         <h6 class="collapse-header">data Ulangan :</h6>
                         <a class="collapse-item" href="buttons.html">Bank Soal</a>
                         <a class="collapse-item" href="cards.html">Soal Ulangan</a>
-                       
+
                         
                     </div>
                 </div>

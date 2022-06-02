@@ -23,6 +23,11 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'login'      => \Myth\Auth\Filters\LoginFilter::class,
+        'login_guru'       => \Myth\Auth\Filters\RoleGuru::class,
+        'login_siswa'       => \Myth\Auth\Filters\RoleSiswa::class,
+		'role'       => \Myth\Auth\Filters\RoleFilter::class,
+		'permission' => \Myth\Auth\Filters\PermissionFilter::class,
     ];
 
     /**
@@ -64,5 +69,10 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'login' =>['before'=>['admin\*']],
+        'login_siswa' =>['before'=>['siswa/*']],
+        'login_guru' =>['before'=>['guru/*']]
+        
+    ];
 }
