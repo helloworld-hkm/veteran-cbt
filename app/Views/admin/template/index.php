@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="<?=base_url()?>/img/logo-veteran.jpg" />
     <meta name="author" content="">
 
-    <title>Veteran - <?=$title?></title>
+    <title>Veteran - login</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?=base_url();?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -67,11 +67,11 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Master :</h6>
-                        <a class="collapse-item" href="buttons.html">Guru</a>
-                        <a class="collapse-item" href="cards.html">Siswa</a>
-                        <a class="collapse-item" href="cards.html">Mata Pelajaran</a>
-                        <a class="collapse-item" href="cards.html">Kelas</a>
-                        <a class="collapse-item" href="cards.html">Jurusan</a>
+                        <a class="collapse-item" href="/admin/guru">Guru</a>
+                        <a class="collapse-item" href="/admin/siswa">Siswa</a>
+                        <a class="collapse-item" href="/admin/mapel">Mata Pelajaran</a>
+                        <a class="collapse-item" href="/admin/kelas">Kelas</a>
+                        <a class="collapse-item" href="/admin/jurusan">Jurusan</a>
                     </div>
                 </div>
             </li>
@@ -87,8 +87,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Relasi:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Guru - Kelas</a>
-                        <a class="collapse-item" href="utilities-border.html">Mata Pelajaran - Jurusan</a>
+                        <a class="collapse-item" href="/admin/guru_kelas">Guru - Kelas</a>
+                        <a class="collapse-item" href="/admin/mata_pelajaran">Mata Pelajaran - Jurusan</a>
 
                     </div>
                 </div>
