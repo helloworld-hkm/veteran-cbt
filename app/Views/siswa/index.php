@@ -2,6 +2,6 @@
 
 <?=$this->section('content')?>
 
-    <h1>home Admin</h1>
+    <h1>home siswa</h1>
       
 <?=$this->endSection()?>

@@ -4,6 +4,11 @@ namespace App\Controllers;
 
 class Admin extends BaseController
 {
+    public function cek(){
+        $data['title']=" cek";
+        return view ('welcome_message',$data);
+
+    }
     
     public function index(){
         $data['title']=" admin";

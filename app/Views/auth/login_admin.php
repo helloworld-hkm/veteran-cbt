@@ -23,7 +23,7 @@
                                     <h2 class="h6 text-gray-900 mb-3">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
 
 
-                                    <h1 class="h2 text-primary  f-1 mb-4"> <b>Login In to Veteran-CBT</b></h1>
+                                    <h1 class="h2 text-primary  f-1 mb-4"> <b>Laman Masuk admin Veteran-CBT</b></h1>
                                     <?= view('Myth\Auth\Views\_message_block') ?>
 
 
@@ -37,7 +37,7 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="password" name="password" class="form-control form-control-user   <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" "
-                                                id=" exampleInputPassword" placeholder="Password">
+                                                id=" exampleInputPassword" placeholder="Password" autocomplete="off">
                                         <div class="invalid-feedback">
                                             <?= session('errors.password') ?>
                                         </div>
@@ -54,7 +54,7 @@
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <p class="small mb-n4">created by blablabla team </p>
+                                    <p class="h6 mb-n4">Dibuat oleh lina &middot; hakim &middot; septiyan &copy; <?=(date("Y"));?></p>
 
 
                                 </div>

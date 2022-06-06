@@ -27,28 +27,30 @@
                                        
                                     
                                     </div>
-                                    <form class="user">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-user"
-                                                id="InputUsername" aria-describedby="emailHelp"
-                                                placeholder="NIK">
+                                    <form class="user" action="<?= route_to('login') ?>" method="POST">
+                                    <div class="form-group">
+                                        <input type="text" name="login" class="form-control form-control-user <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>" id="InputUsername" aria-describedby="emailHelp" placeholder="Admin User">
+                                        <div class="invalid-feedback">
+                                            <?= session('errors.login') ?>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Kata Sandi">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" class="form-control form-control-user   <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" "
+                                                id=" exampleInputPassword" placeholder="Password" autocomplete="off">
+                                        <div class="invalid-feedback">
+                                            <?= session('errors.password') ?>
                                         </div>
-                                        <div class="form-group">
-                                            <!-- <div class="custom-control custom-checkbox small">
+                                    </div>
+                                    <div class="form-group">
+                                        <!-- <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
                                                 <label class="custom-control-label" for="customCheck">Remember
                                                     Me</label>
                                             </div> -->
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Masuk
-                                        </a>
-                                        
-                                    </form>
+                                    </div>
+                                    <input type="submit" class="btn btn-primary btn-user btn-block" value="Masuk">
+
+                                </form>
                                     <hr>
                                     <div class="text-center">
                                         <p class="small mb-n4">created by blablabla team </p>

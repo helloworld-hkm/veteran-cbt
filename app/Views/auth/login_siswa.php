@@ -26,30 +26,30 @@
                                        
                                     
                                         </div>
-                                    <form class="user">
-                                        <div class="form-group">
-                                            <label for="InputName">NISN</label>
-                                            <input type="text" class="form-control p-2"
-                                                id="InputUsername" 
-                                                placeholder=" masukkan nisn disini...">
+                                        <form class="user" action="<?= route_to('login') ?>" method="POST">
+                                    <div class="form-group">
+                                        <input type="text" name="login" class="form-control form-control-user <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>" id="InputUsername" aria-describedby="emailHelp" placeholder="Admin User">
+                                        <div class="invalid-feedback">
+                                            <?= session('errors.login') ?>
                                         </div>
-                                        <div class="form-group">
-                                        <label for="InputName">KATA SANDI</label>
-                                            <input type="password" class="form-control p-2"
-                                                id="exampleInputPassword" placeholder=" masukkan  Kata Sandi disini...">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" class="form-control form-control-user   <?php if (session('errors.password')) : ?>is-invalid<?php endif ?>" "
+                                                id=" exampleInputPassword" placeholder="Password" autocomplete="off">
+                                        <div class="invalid-feedback">
+                                            <?= session('errors.password') ?>
                                         </div>
-                                        <div class="form-group">
-                                            <!-- <div class="custom-control custom-checkbox small">
+                                    </div>
+                                    <div class="form-group">
+                                        <!-- <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
                                                 <label class="custom-control-label" for="customCheck">Remember
                                                     Me</label>
                                             </div> -->
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary  btn-block">
-                                            Masuk
-                                        </a>
-                                        
-                                    </form>
+                                    </div>
+                                    <input type="submit" class="btn btn-primary btn-user btn-block" value="Masuk">
+
+                                </form>
                                     <hr>
                                     <div class="text-center">
                                         <p class="small mb-n4">created by blablabla team </p>

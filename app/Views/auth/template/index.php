@@ -32,6 +32,7 @@
     }
     .smk{
         font-family: 'Noto Sans', sans-serif;
+    }
 </style>
 
 <body class="bg-gradient-light">
