@@ -31,14 +31,11 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-
+//route siswa
 $routes->get('/', 'Siswa::toSiswa', ['filter' => 'role:siswa']);
-// $routes->get('/guru','Auth::login_guru');
-// $routes->get('/admin','Auth::login_admin');
-// $routes->get('/siswa/','Guru::index');
-$routes->get('/admin/home','Admin::index');
-$routes->get('/cek','Admin::cek');
 
+//routeAdmin
+ $routes->get('admin', 'Admin::index', ['filter' => 'roleAdmin:admin']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

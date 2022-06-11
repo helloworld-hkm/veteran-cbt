@@ -25,7 +25,7 @@ class Filters extends BaseConfig
         'secureheaders' => SecureHeaders::class,
         'login'      => \Myth\Auth\Filters\LoginFilter::class,
         'login_guru'       => \Myth\Auth\Filters\RoleGuru::class,
-        'loginSiswa'       => \Myth\Auth\Filters\RoleSiswa::class,
+        'loginAdmin'       => \Myth\Auth\Filters\RoleAdmin::class,
 		'role'       => \Myth\Auth\Filters\RoleFilter::class,
 		'permission' => \Myth\Auth\Filters\PermissionFilter::class,
     ];
@@ -70,9 +70,9 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [
-        'login' =>['before'=>['admin']],
-        'loginSiswa' =>['before'=>['siswa']],
+    public $filters = [ 
+        'login' =>['before' => ['siswa']],
+        'loginAdmin' =>['before'=>['admin']],
         'login_guru' =>['before'=>['guru']]
         
     ];
