@@ -24,9 +24,11 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'login'      => \Myth\Auth\Filters\LoginFilter::class,
-        'login_guru'       => \Myth\Auth\Filters\RoleGuru::class,
-        'loginAdmin'       => \Myth\Auth\Filters\RoleAdmin::class,
+        'loginGuru'       => \Myth\Auth\Filters\LoginGuru::class,
+        'loginAdmin'       => \Myth\Auth\Filters\LoginAdmin::class,
 		'role'       => \Myth\Auth\Filters\RoleFilter::class,
+        'roleAdmin'       => \Myth\Auth\Filters\RoleAdminFilter::class,
+        'roleGuru'       => \Myth\Auth\Filters\RoleGuru::class,
 		'permission' => \Myth\Auth\Filters\PermissionFilter::class,
     ];
 
@@ -73,7 +75,7 @@ class Filters extends BaseConfig
     public $filters = [ 
         'login' =>['before' => ['siswa']],
         'loginAdmin' =>['before'=>['admin']],
-        'login_guru' =>['before'=>['guru']]
+        'loginGuru' =>['before'=>['guru']]
         
     ];
 }

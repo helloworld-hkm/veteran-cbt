@@ -1,4 +1,4 @@
-<?=$this->extend('guru/index')?>
+<?=$this->extend('/template/index')?>
 
 <?=$this->section('content')?>
     <h1>home guru</h1>

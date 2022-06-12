@@ -33,9 +33,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 //route siswa
 $routes->get('/', 'Siswa::toSiswa', ['filter' => 'role:siswa']);
-
+// $routes->get('/siswa', 'Siswa::toSiswa', ['filter' => 'role:siswa']);
 //routeAdmin
  $routes->get('admin', 'Admin::index', ['filter' => 'roleAdmin:admin']);
+ 
 /*
  * --------------------------------------------------------------------
  * Additional Routing
