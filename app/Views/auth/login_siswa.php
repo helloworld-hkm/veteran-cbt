@@ -18,7 +18,7 @@
                             <div class="p-5">
                                 <div class="text-center">
 
-                                    <img src="<?= base_url()?>/img/logo-veteran.jpg" class="img-fluid" alt="logoi" width="15%">
+                                    <img src="<?= base_url()?>/img/logo-veteran.png" class="img-fluid" alt="logoi" width="15%">
                                     <h2 class="h5 text-dark mt-2 mb-n1"> SMK VETERAN PEKALONGAN </h2>
                                     <h2 class="h6 text-gray-900 mb-3">Jl. Maninjau No.14 51129 Pekalongan Jawa Tengah </h2>
 
@@ -54,7 +54,7 @@
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <p class="h6 mb-n4">Dibuat oleh lina &middot; hakim &middot; septiyan &copy; <?=(date("Y"));?></p>
+                                    <p class=" mb-n4">Dibuat oleh lina &middot; hakim &middot; septiyan &copy; <?=(date("Y"));?></p>
 
 
                                 </div>

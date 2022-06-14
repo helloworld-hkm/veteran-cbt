@@ -1,9 +1,21 @@
-<ul class="navbar-nav <?=in_groups('admin')?"bg-gradient-primary":"bg-gradient-secondary"?> sidebar sidebar-dark accordion" id="accordionSidebar">
+<?php if (in_groups('admin')) {
+   $groups='admin';
+   
+    }
+    else if (in_groups('siswa')) {
+        $groups='siswa';
+    } else if (in_groups('guru')) {
+        $groups='guru';
+    } 
+
+?>
+
+<ul class="navbar-nav <?=in_groups('admin')?"bg-gradient-primary":"bg-gradient-light"?> sidebar sidebar-white accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-icon r">
-                   <img src="<?= base_url() ?>/img/logo-veteran.jpg" width="50%" alt="">
+                   <img src="<?= base_url() ?>/img/logo-veteran.png" width="50%" alt="">
                 </div>
                 <div class="sidebar-brand-text mx-3">Veteran CBT</div>
             </a>
@@ -44,7 +56,7 @@
                     </div>
                 </div>
             </li>
-            <?php endif; ?>
+ 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
@@ -54,7 +66,7 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Relasi:</h6>
-                        <a class="collapse-item" href="/admin/guru_kelas">Guru - Kelas</a>
+                        <a class="collapse-item" href="/<?=$groups?>/guru_kelas">Guru - Kelas</a>
                         <a class="collapse-item" href="/admin/mata_pelajaran">Mata Pelajaran - Jurusan</a>
 
                     </div>
@@ -120,7 +132,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Setting</span></a>
             </li>
-
+            <?php endif; ?>
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
