@@ -1,4 +1,4 @@
-<?=$this->extend('/template/index')?>
+<?=$this->extend('/siswa/template/index')?>
 
 <?=$this->section('content')?>
 
