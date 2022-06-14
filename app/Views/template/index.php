@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="<?= base_url() ?>/img/logo-veteran.jpg" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/img/icon.ico" />
     <meta name="author" content="">
 
     <title>Veteran - login</title>

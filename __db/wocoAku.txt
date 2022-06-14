@@ -1,0 +1,7 @@
+akun admin
+username : admin
+password : hakimfirman
+
+akun siswa
+username : hakim
+password : firmanfebrian
