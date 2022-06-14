@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/logo-veteran.jpg" />
-    <title>Veteran - <?=$title;?></title>
+    <title>Veteran - login</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?=base_url();?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -32,6 +32,7 @@
     }
     .smk{
         font-family: 'Noto Sans', sans-serif;
+    }
 </style>
 
 <body class="bg-gradient-light">

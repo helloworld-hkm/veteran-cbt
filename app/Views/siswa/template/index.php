@@ -27,7 +27,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <?=$this->include('template/sidebar')?>
+        <?=$this->include('/siswa/template/sidebar')?>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -37,7 +37,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <?=$this->include('template/topbar')?>
+                <?=$this->include('/siswa/template/topbar')?>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->

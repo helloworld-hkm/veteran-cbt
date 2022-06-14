@@ -7,19 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="<?=base_url()?>/img/logo-veteran.jpg" />
+    <link rel="shortcut icon" href="<?= base_url() ?>/img/logo-veteran.jpg" />
     <meta name="author" content="">
 
-    <title>Veteran - <?=$title?></title>
+    <title>Veteran - login</title>
 
     <!-- Custom fonts for this template-->
-    <link href="<?=base_url();?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="<?=base_url();?>/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -45,7 +43,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                <i class="fas fa-fw fa-home"></i>
                     <span>Dashboard</span></a>
             </li>
 
@@ -59,43 +57,39 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Data Master</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Master :</h6>
-                        <a class="collapse-item" href="buttons.html">Guru</a>
-                        <a class="collapse-item" href="cards.html">Siswa</a>
-                        <a class="collapse-item" href="cards.html">Mata Pelajaran</a>
-                        <a class="collapse-item" href="cards.html">Kelas</a>
-                        <a class="collapse-item" href="cards.html">Jurusan</a>
+                        <a class="collapse-item" href="/admin/guru">Guru</a>
+                        <a class="collapse-item" href="/admin/siswa">Siswa</a>
+                        <a class="collapse-item" href="/admin/mapel">Mata Pelajaran</a>
+                        <a class="collapse-item" href="/admin/kelas">Kelas</a>
+                        <a class="collapse-item" href="/admin/jurusan">Jurusan</a>
                     </div>
                 </div>
             </li>
-        
+
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Relasi</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Relasi:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Guru - Kelas</a>
-                        <a class="collapse-item" href="utilities-border.html">Mata Pelajaran - Jurusan</a>
+                        <a class="collapse-item" href="/admin/guru_kelas">Guru - Kelas</a>
+                        <a class="collapse-item" href="/admin/mata_pelajaran">Mata Pelajaran - Jurusan</a>
 
                     </div>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseulangan"
-                    aria-expanded="true" aria-controls="collapseulangan">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseulangan" aria-expanded="true" aria-controls="collapseulangan">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Ulangan</span>
                 </a>
@@ -105,11 +99,11 @@
                         <a class="collapse-item" href="buttons.html">Bank Soal</a>
                         <a class="collapse-item" href="cards.html">Soal Ulangan</a>
 
-                        
+
                     </div>
                 </div>
             </li>
-            
+
             <!-- Divider -->
             <hr class="sidebar-divider">
 
@@ -119,7 +113,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            
+
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
@@ -139,7 +133,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            
+
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
@@ -181,25 +175,22 @@
                     </button>
 
                     <!-- Topbar Search -->
-                    
+
                     <h1 class="h3 mb-0 text-gray-800">Dashboard - Data Aplikasi</h1>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
-                    
 
-                       
+
+
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="<?=base_url()?>/img/undraw_profile.svg">
+                                <img class="img-profile rounded-circle" src="<?= base_url() ?>/img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="userDropdown">
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
@@ -208,7 +199,7 @@
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Settings
                                 </a>
-                                
+
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -226,7 +217,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <?=$this->renderSection('content')?>
+                    <?= $this->renderSection('content') ?>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -238,7 +229,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; BLABLABLA TEAM <?= date('Y')?></span>
+                        <span>Copyright &copy; BLABLABLA TEAM <?= date('Y') ?></span>
                     </div>
                 </div>
             </footer>
@@ -256,8 +247,7 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -276,14 +266,14 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?=base_url();?>/vendor/jquery/jquery.min.js"></script>
-    <script src="<?=base_url();?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?=base_url();?>/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="<?=base_url();?>/js/sb-admin-2.min.js"></script>
+    <script src="<?= base_url(); ?>/js/sb-admin-2.min.js"></script>
 
 </body>
 
