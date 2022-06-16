@@ -27,28 +27,37 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
+        <?php if (!(in_groups('siswa'))):?>
+         
         <?=$this->include('template/sidebar')?>
         <!-- End of Sidebar -->
-
+        <?php endif; ?>
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
             <div id="content">
-
+            <?php if ((in_groups('siswa'))):?>
+                <!-- Topbar -->
+                <?=$this->include('template/siswa/topbar')?>
+                <!-- End of Topbar -->
+                <?php endif; ?>
+                <?php if (in_groups('guru')||in_groups('admin')):?>
                 <!-- Topbar -->
                 <?=$this->include('template/topbar')?>
                 <!-- End of Topbar -->
-
+                <?php endif; ?>
                 <!-- Begin Page Content -->
+                <?php if ((in_groups('admin'))):?>
                 <div class="container-fluid">
-
+                <?php endif; ?>
                     <!-- Page Heading -->
                     <?= $this->renderSection('content') ?>
-
+                    <?php if ((in_groups('admin'))):?>
                 </div>
+                <?php endif; ?>
                 <!-- /.container-fluid -->
-
+              
             </div>
             <!-- End of Main Content -->
 
@@ -56,12 +65,13 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; BLABLABLA TEAM <?= date('Y') ?></span>
+                        <span>Dibuat oleh lina &middot; hakim &middot; septiyan &copy; <?=(date("Y"));?></span>
                     </div>
                 </div>
             </footer>
             <!-- End of Footer -->
-
+            <?php if (!(in_groups('admin'))):?>
+            <?php endif; ?>
         </div>
         <!-- End of Content Wrapper -->
 

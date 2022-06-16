@@ -1,19 +1,35 @@
-<nav class="navbar navbar-expand navbar-light bg-transparent topbar mb-4 static-top">
+<nav class="navbar navbar-expand navbar-light  bg-white topbar mb-4 static-top shadow">
+<div class="container">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <!-- <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                         
-                    </button>
+                    </button> -->
+                    <a class="navbar-brand" href="#">
+    <img src="<?= base_url() ?>/img/logo-veteran.png" width="30" height="30" alt="">
+  </a>
+                    <ul class="navbar-nav mr-auto">
+              
+      <li class="nav-item active">
+        <a class="nav-link text-gray-600" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-gray-600" href="#">Ulangan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-gray-600" href="#">Nilai</a>
+      </li>
+   
+    </ul>
+                 
 
-                    <!-- Topbar Search -->
-
-                    <h1 class="h4 mb-0 text-gray-800">Home - Siswa </h1>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
+                        
 
-
+                        <!-- <div class="topbar-divider d-none d-sm-block"></div> -->
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
@@ -41,5 +57,5 @@
                         </li>
 
                     </ul>
-
+                    </div>
                 </nav>
