@@ -14,4 +14,10 @@ class Siswa extends BaseController
     {
         return redirect()->to('/siswa');
     }
+
+    public function jadwal(){
+
+        $data['title']="jadwal Ulangan";
+        return view ('siswa/jadwal',$data);
+    }
 }

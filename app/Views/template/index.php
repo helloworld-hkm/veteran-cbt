@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="<?= base_url() ?>/img/icon.ico" />
     <meta name="author" content="">
 
-    <title>Veteran - login</title>
+    <title>Veteran - Home</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
