@@ -6,7 +6,7 @@ class Siswa extends BaseController
 {
     
     public function index(){
-        $data['title']=" Guru";
+        $data['title']=" Siswa";
         return view ('siswa/index',$data);
 
     }

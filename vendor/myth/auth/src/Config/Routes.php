@@ -17,6 +17,10 @@ $routes->group('', ['namespace' => 'Myth\Auth\Controllers'], function ($routes) 
     // Registration
     $routes->get('register', 'AuthController::register', ['as' => 'register']);
     $routes->post('register', 'AuthController::attemptRegister');
+    $routes->get('registerGuru', 'AuthController::registerGuru', ['as' => 'registerGuru']);
+    $routes->post('registerGuru', 'AuthController::attemptRegisterGuru');
+    $routes->get('registerAdmin', 'AuthController::registerAdmin', ['as' => 'registerAdmin']);
+    $routes->post('registerAdmin', 'AuthController::attemptRegisterAdmin');
 
     // Activation
     $routes->get('activate-account', 'AuthController::activateAccount', ['as' => 'activate-account']);

@@ -6,7 +6,7 @@
         <div class="col-sm-6 offset-sm-3">
 
             <div class="card">
-                <h2 class="card-header"><?=lang('Auth.register')?></h2>
+                <h2 class="card-header"><?=lang('Auth.register')?> siswa</h2>
                 <div class="card-body">
 
                     <?= view('Myth\Auth\Views\_message_block') ?>
@@ -34,6 +34,10 @@
                         <div class="form-group">
                             <label for="pass_confirm"><?=lang('Auth.repeatPassword')?></label>
                             <input type="password" name="pass_confirm" class="form-control <?php if(session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>" placeholder="<?=lang('Auth.repeatPassword')?>" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass_confirm"></label>
+                            <input type="text" name="role" class="form-control " placeholder="" autocomplete="off">
                         </div>
 
                         <br>

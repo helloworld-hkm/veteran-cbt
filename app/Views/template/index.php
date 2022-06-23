@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="<?= base_url() ?>/img/icon.ico" />
     <meta name="author" content="">
 
-    <title>Veteran - Home</title>
+    <title>Veteran - <?=$title;?></title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -53,6 +53,7 @@
                 <?php endif; ?>
                     <!-- Page Heading -->
                     <?= $this->renderSection('content') ?>
+                    
                     <?php if ((in_groups('admin'))):?>
                 </div>
                 <?php endif; ?>

@@ -2,9 +2,9 @@
 
 <?=$this->section('content')?>
 
-<div class="jumbotron jumbotron-fluid mt-n5 text-light bg-primary">
+<div class="jumbotron jumbotron-fluid mt-n5 text-light bg-primary pt-4">
   <div class="container">
-    <h1 class="display-6">Selamat Datang <?=user()->username;?></h1>
+    <h1 class="display-6 mt-4">Selamat Datang <?=user()->username;?></h1>
     <p class="lead">Semoga aktivitas belajarmu menyenangkan.</p>
     <div class="row">
 
@@ -49,7 +49,7 @@
   </tr>
   <tr>
     <td>nisn</td>
-    <td>Maria Anders</td>
+    <td><?=user()->username?></td>
    
   </tr>
   <tr>

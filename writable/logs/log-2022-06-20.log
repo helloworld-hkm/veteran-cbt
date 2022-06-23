@@ -1,0 +1,149 @@
+ERROR - 2022-06-20 07:30:04 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-20 07:30:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(89): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptloginAdmin()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-06-20 08:51:23 --> Unknown column 'auth_groups.groups_id' in 'on clause'
+CRITICAL - 2022-06-20 08:51:23 --> Unknown column 'auth_groups.groups_id' in 'on clause'
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-06-20 08:52:31 --> Unknown column 'auth_groups.groups_id' in 'on clause'
+CRITICAL - 2022-06-20 08:52:31 --> Unknown column 'auth_groups.groups_id' in 'on clause'
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-20 09:01:41 --> foreach() argument must be of type array|object, null given
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Views/admin/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(31): view()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-20 09:37:15 --> Attempt to read property "id" on null
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(314): Myth\Auth\Models\UserModel->withGroup()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-20 11:20:37 --> array_merge(): Argument #2 must be of type array, string given
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(306): array_merge()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 11:23:53 --> Attempt to read property "id" on null
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(315): Myth\Auth\Models\UserModel->withGroup()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-20 11:25:07 --> Attempt to read property "id" on null
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(315): Myth\Auth\Models\UserModel->withGroup()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-20 11:26:51 --> Call to undefined method Myth\Auth\Models\UserModel::addToGroup
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(315): CodeIgniter\Model->__call()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 11:31:20 --> Call to undefined method Myth\Auth\Models\UserModel::addToGroup
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(315): CodeIgniter\Model->__call()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 11:31:54 --> Call to undefined method Myth\Auth\Models\UserModel::addToGroup
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(315): CodeIgniter\Model->__call()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 11:40:48 --> Undefined property: Myth\Auth\Config\Auth::$defaultGuruGroup
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(313): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 12:03:57 --> Attempt to read property "id" on null
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(313): Myth\Auth\Models\UserModel->withGroup()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-20 12:22:31 --> Undefined array key "register_guru"
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(355): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->registerGuru()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-20 19:59:22 --> Call to undefined function iser()
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Siswa.php(10): view()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Siswa->index()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}

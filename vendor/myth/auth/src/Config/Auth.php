@@ -14,7 +14,7 @@ class Auth extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $defaultUserGroup = 'siswa';
+	public $defaulGuruGroup = 'guru',$defaulUserGroup = 'siswa',$defaultAdminGroup='admin';
 
 	/**
 	 * --------------------------------------------------------------------
@@ -26,6 +26,15 @@ class Auth extends BaseConfig
 	public $authenticationLibs = [
 		'local' => 'Myth\Auth\Authentication\LocalAuthenticator',
 	];
+
+/**
+	 * --------------------------------------------------------------------
+	 * Default User Group
+	 * --------------------------------------------------------------------
+	 *
+	 * The name of a group a user will be added to when they register,
+	 * i.e. $defaultUserGroup = 'guests'.
+	 *
 
 	/**
 	 * --------------------------------------------------------------------
@@ -40,6 +49,8 @@ class Auth extends BaseConfig
 		'loginAdmin'	=> 'App\Views\auth\login_admin',	
 		'loginGuru'	=> 'App\Views\auth\login_guru',
 		'register'		=> 'Myth\Auth\Views\register',
+		'registerGuru'		=> 'Myth\Auth\Views\register_guru',
+		'registerAdmin'		=> 'Myth\Auth\Views\register_admin',
 		'forgot'		=> 'Myth\Auth\Views\forgot',
 		'reset'		   	=> 'Myth\Auth\Views\reset',
 		'emailForgot'	 => 'Myth\Auth\Views\emails\forgot',
@@ -53,6 +64,8 @@ class Auth extends BaseConfig
 	 *
 	 * @var string
 	 */
+
+
 	public $viewLayout = 'Myth\Auth\Views\layout';
 
 	/**
@@ -60,6 +73,7 @@ class Auth extends BaseConfig
 	 * Authentication
 	 * --------------------------------------------------------------------
 	 *
+	 
 	 * Fields that are available to be used as credentials for login.
 	 *
 	 * @var string[]

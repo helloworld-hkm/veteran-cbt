@@ -206,6 +206,7 @@ class AuthController extends Controller
 
 		$login = $this->request->getPost('login');
 		$password = $this->request->getPost('password');
+		
 		$remember = (bool)$this->request->getPost('remember');
 
 		// Determine credential type
@@ -308,9 +309,10 @@ class AuthController extends Controller
 		$this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
 
 		// Ensure default group gets assigned if set
-        if (! empty($this->config->defaultUserGroup)) {
-            $users = $users->withGroup($this->config->defaultUserGroup);
+        if (! empty($this->config->defaulUserGroup)) {
+            $users = $users->withGroup($this->config->defaulUserGroup);
         }
+	
 
 		if (! $users->save($user))
 		{
@@ -334,6 +336,184 @@ class AuthController extends Controller
 		// Success!
 		return redirect()->route('login')->with('message', lang('Auth.registerSuccess'));
 	}
+
+	//register guru
+	public function registerGuru()
+	{
+        // check if already logged in.
+		if ($this->auth->check())
+		{
+			return redirect()->back();
+		}
+
+        // Check if registration is allowed
+		if (! $this->config->allowRegistration)
+		{
+			return redirect()->back()->withInput()->with('error', lang('Auth.registerDisabled'));
+		}
+
+		return $this->_render($this->config->views['registerGuru'], ['config' => $this->config]);
+	}
+
+	/**
+	 * Attempt to register a new user.
+	 */
+	public function attemptRegisterGuru()
+	{
+		// Check if registration is allowed
+		if (! $this->config->allowRegistration)
+		{
+			return redirect()->back()->withInput()->with('error', lang('Auth.registerDisabled'));
+		}
+
+		$users = model(UserModel::class);
+
+		// Validate basics first since some password rules rely on these fields
+		$rules = [
+			'username' => 'required|alpha_numeric_space|min_length[3]|max_length[30]|is_unique[users.username]',
+			'email'    => 'required|valid_email|is_unique[users.email]',
+		];
+
+		if (! $this->validate($rules))
+		{
+			return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+		}
+
+		// Validate passwords since they can only be validated properly here
+		$rules = [
+			'password'     => 'required|strong_password',
+			'pass_confirm' => 'required|matches[password]',
+		];
+
+		if (! $this->validate($rules))
+		{
+			return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+		}
+
+		// Save the user
+		$allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);
+		$user = new User($this->request->getPost($allowedPostFields));
+
+		$this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
+
+		// Ensure default group gets assigned if set
+        if (! empty($this->config->defaulGuruGroup)) {
+            $users = $users->withGroup($this->config->defaulGuruGroup);
+        }
+	
+
+		if (! $users->save($user))
+		{
+			return redirect()->back()->withInput()->with('errors', $users->errors());
+		}
+
+		if ($this->config->requireActivation !== null)
+		{
+			$activator = service('activator');
+			$sent = $activator->send($user);
+
+			if (! $sent)
+			{
+				return redirect()->back()->withInput()->with('error', $activator->error() ?? lang('Auth.unknownError'));
+			}
+
+			// Success!
+			return redirect()->route('login')->with('message', lang('Auth.activationSuccess'));
+		}
+
+		// Success!
+		return redirect()->route('login')->with('message', lang('Auth.registerSuccess'));
+	}
+
+	//register admin
+	public function registerAdmin()
+	{
+        // check if already logged in.
+		if ($this->auth->check())
+		{
+			return redirect()->back();
+		}
+
+        // Check if registration is allowed
+		if (! $this->config->allowRegistration)
+		{
+			return redirect()->back()->withInput()->with('error', lang('Auth.registerDisabled'));
+		}
+
+		return $this->_render($this->config->views['registerAdmin'], ['config' => $this->config]);
+	}
+
+	/**
+	 * Attempt to register a new user.
+	 */
+	public function attemptRegisterAdmin()
+	{
+		// Check if registration is allowed
+		if (! $this->config->allowRegistration)
+		{
+			return redirect()->back()->withInput()->with('error', lang('Auth.registerDisabled'));
+		}
+
+		$users = model(UserModel::class);
+
+		// Validate basics first since some password rules rely on these fields
+		$rules = [
+			'username' => 'required|alpha_numeric_space|min_length[3]|max_length[30]|is_unique[users.username]',
+			'email'    => 'required|valid_email|is_unique[users.email]',
+		];
+
+		if (! $this->validate($rules))
+		{
+			return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+		}
+
+		// Validate passwords since they can only be validated properly here
+		$rules = [
+			'password'     => 'required|strong_password',
+			'pass_confirm' => 'required|matches[password]',
+		];
+
+		if (! $this->validate($rules))
+		{
+			return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+		}
+
+		// Save the user
+		$allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);
+		$user = new User($this->request->getPost($allowedPostFields));
+
+		$this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
+
+		// Ensure default group gets assigned if set
+        if (! empty($this->config->defaultAdminGroup)) {
+            $users = $users->withGroup($this->config->defaultAdminGroup);
+        }
+	
+
+		if (! $users->save($user))
+		{
+			return redirect()->back()->withInput()->with('errors', $users->errors());
+		}
+
+		if ($this->config->requireActivation !== null)
+		{
+			$activator = service('activator');
+			$sent = $activator->send($user);
+
+			if (! $sent)
+			{
+				return redirect()->back()->withInput()->with('error', $activator->error() ?? lang('Auth.unknownError'));
+			}
+
+			// Success!
+			return redirect()->route('login')->with('message', lang('Auth.activationSuccess'));
+		}
+
+		// Success!
+		return redirect()->route('login')->with('message', lang('Auth.registerSuccess'));
+	}
+
+
 
 	//--------------------------------------------------------------------
 	// Forgot Password
