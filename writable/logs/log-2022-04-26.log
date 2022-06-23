@@ -1,0 +1,48 @@
+CRITICAL - 2022-04-26 12:08:18 --> View themes, no current section.
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Views/admin/home.php(8): CodeIgniter\View\View->endSection()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(10): view()
+#5 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-26 12:16:58 --> Undefined variable $base_url
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Views/admin/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(10): view()
+#5 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-26 12:19:20 --> Undefined variable $base_url
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Views/admin/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(10): view()
+#5 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-26 12:27:41 --> Undefined constant "img"
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#3 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Admin.php(10): view()
+#5 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

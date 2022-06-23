@@ -1,0 +1,16 @@
+ERROR - 2022-06-07 01:49:45 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-07 01:49:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(89): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptloginAdmin()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}

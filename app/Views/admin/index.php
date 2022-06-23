@@ -2,6 +2,7 @@
 
 <?=$this->section('content')?>
 
-    <h1>home Admin</h1>
+    <h1>User List</h1>
+<?php d($user)?>
       
 <?=$this->endSection()?>

@@ -1,0 +1,12 @@
+CRITICAL - 2022-04-22 03:31:24 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/spark(45): require('...')
+#2 {main}
+CRITICAL - 2022-04-22 03:34:37 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/spark(45): require('...')
+#2 {main}
+CRITICAL - 2022-04-22 03:36:40 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /media/unixorn/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/spark(45): require('...')
+#2 {main}

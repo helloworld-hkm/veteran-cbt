@@ -1,0 +1,32 @@
+ERROR - 2022-06-18 07:52:27 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-18 07:52:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/AuthenticationBase.php(137): CodeIgniter\BaseModel->find()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-06-18 11:18:10 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-18 11:18:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(215): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /mnt/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}

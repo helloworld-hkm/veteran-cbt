@@ -1,0 +1,599 @@
+CRITICAL - 2022-06-06 12:49:53 --> Undefined constant "y"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(429): view()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(57): Myth\Auth\Controllers\AuthController->_render()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-06 12:50:06 --> Undefined constant "y"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(429): view()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(57): Myth\Auth\Controllers\AuthController->_render()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-06 12:50:07 --> Undefined constant "y"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(429): view()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(57): Myth\Auth\Controllers\AuthController->_render()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-06 13:22:13 --> Class name must be a valid object or a string
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(248): Myth\Auth\Config\Services::activator()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Config/Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(929): CodeIgniter\Config\BaseService::__callStatic()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(195): service()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-06-06 13:23:21 --> Class name must be a valid object or a string
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(248): Myth\Auth\Config\Services::activator()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Config/Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Config/BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(929): CodeIgniter\Config\BaseService::__callStatic()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(195): service()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-06-06 13:37:12 --> Cannot declare class Myth\Auth\Filters\RoleFilter, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 13:58:02 --> Invalid file: siswa/home.php
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/app/Controllers/Siswa.php(10): view()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Siswa->index()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:08:20 --> Cannot declare class Myth\Auth\Filters\RoleFilter, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 14:10:49 --> Cannot declare class Myth\Auth\Filters\RoleFilter, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 14:12:23 --> Cannot declare class Myth\Auth\Filters\LoginFilter, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 14:12:46 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:13:56 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:13:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:15:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:34 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:35 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:36 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:17:36 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:55 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:56 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:56 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:57 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:58 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:58 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:18:58 -->  route cannot be found while reverse-routing.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Filters/RoleSiswa.php(48): redirect()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleSiswa->before()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-06-06 14:19:25 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:21:10 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 14:21:58 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 14:23:39 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:14 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:15 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:15 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:16 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:16 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:16 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:16 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:17 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:17 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:17 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:17 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:17 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:18 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:29:18 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 14:31:21 --> Undefined array key "loginSiswa"
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginSiswa()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-06-06 18:30:33 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-06-06 18:33:20 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-06-06 18:33:21 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-06-06 18:33:21 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-06-06 18:33:21 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+CRITICAL - 2022-06-06 18:33:21 --> Class "Myth\Auth\Filters\RoleAdmin" not found
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#4 {main}
+ERROR - 2022-06-06 18:37:52 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-06 18:37:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(152): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-06-06 19:01:29 --> loginsda filter must have a matching alias defined.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-06 19:01:32 --> loginsda filter must have a matching alias defined.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#7 {main}
+CRITICAL - 2022-06-06 19:06:34 --> Cannot declare class Myth\Auth\Filters\LoginFilter, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-06 19:08:30 --> Invalid file: App\Views\auth\login.php
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(493): view()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->loginAdmin()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+ERROR - 2022-06-06 19:09:31 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-06 19:09:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#6 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/myth/auth/src/Controllers/AuthController.php(152): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#7 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-06-06 19:45:45 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 19:45:47 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 19:45:49 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 19:45:53 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-06-06 19:46:00 --> You do not have sufficient permissions to access that page.
+#0 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+#1 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#2 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/nirmala-std/CC52D50B52D4FB62/xampp/htdocs/veteran-cbt/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}

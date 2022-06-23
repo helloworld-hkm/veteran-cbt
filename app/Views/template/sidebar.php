@@ -10,7 +10,7 @@
 
 ?>
 
-<ul class="navbar-nav <?=in_groups('admin')?"bg-gradient-primary sidebar-dark":"bg-gradient-light sidebar-white "?> sidebar  accordion" id="accordionSidebar">
+<ul class="navbar-nav <?=in_groups('admin')?"bg-gradient-primary sidebar-dark":"bg-secondary sidebar-dark "?> sidebar  accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
@@ -133,6 +133,11 @@
                     <span>Setting</span></a>
             </li>
             <?php endif; ?>
+            <li class="nav-item">
+                <a class="nav-link" href="charts.html">
+                    <i class="fas fa-clipboard"></i>
+                    <span>Ulangan</span></a>
+            </li>
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
