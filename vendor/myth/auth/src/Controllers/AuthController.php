@@ -4,6 +4,7 @@ use CodeIgniter\Controller;
 use CodeIgniter\Session\Session;
 use Myth\Auth\Config\Auth as AuthConfig;
 use Myth\Auth\Entities\User;
+use App\Models\SiswaModel;
 use Myth\Auth\Models\UserModel;
 
 class AuthController extends Controller
@@ -14,6 +15,7 @@ class AuthController extends Controller
 	 * @var AuthConfig
 	 */
 	protected $config;
+	protected $db,$builder,$validation;
 
 	/**
 	 * @var Session
@@ -28,6 +30,11 @@ class AuthController extends Controller
 
 		$this->config = config('Auth');
 		$this->auth = service('authentication');
+
+        $this->db      = \Config\Database::connect();
+		$this->validation = \Config\Services::validation();
+        $this->builder = $this->db->table('siswasmk');
+        $this->SiswaModel = new SiswaModel();
 	}
 
 	//--------------------------------------------------------------------
@@ -284,6 +291,16 @@ class AuthController extends Controller
 		$rules = [
 			'username' => 'required|alpha_numeric_space|min_length[3]|max_length[30]|is_unique[users.username]',
 			'email'    => 'required|valid_email|is_unique[users.email]',
+			// 'nisn' => ['rules' => 'required|is_unique[siswasmk.nisn]', 'errors' => ['is_unique' => 'NISN Sudah Ada!!', 'required' => 'NISN wajib diisi!!']],
+            'nama' => ['rules' => 'required', 'errors' => ['required' => 'Nama wajib diisi!!',]],
+            'foto' => [
+                'rules' => 'max_size[foto,1024]|is_image[foto]|mime_in[foto,image/jpg,image/jpeg,image/png]',
+                'errors' => [
+                    'max_size' => 'Ukuran Gambar Terlalu Besar',
+                    'is_image' => 'yang anda pilih bukan gambar',
+                    'mime_in' => 'yang anda pilih bukan gambar'
+                ]
+            ]
 		];
 
 		if (! $this->validate($rules))
@@ -318,6 +335,55 @@ class AuthController extends Controller
 		{
 			return redirect()->back()->withInput()->with('errors', $users->errors());
 		}
+
+		///input tabel siswasmk
+
+		if (!$this->validate([
+
+            
+        ])) {
+			// dd('coba');
+		
+			
+            // $validation = \Config\Services::validation();
+            // return redirect()->to('/admin/siswa/create')->withInput('validation', $validation);
+        }
+		//ambil gambar
+        $fileFoto = $this->request->getFile('foto');
+        //apakah tidak ada gambar yang diupload
+        if ($fileFoto->getError() == 4) {
+            $namaFoto = 'default.jpg';
+        } else {
+
+            //pindah kan fle ke img
+            $fileFoto->move('img');
+            //ambil nama filefoto
+            $namaFoto = $fileFoto->getName();
+        }
+		// $data = [
+
+
+        //     'nisn' => $this->request->getVar('username'),
+        //     'nama' => $this->request->getVar('nama'),
+        //     'alamat' => $this->request->getVar('alamat'),
+        //     'kd_kelas' => $this->request->getVar('kd_kelas'),
+        //     'tgl_lahir' => $this->request->getVar('tgl_lahir'),
+
+        //     'foto' => $namaFoto
+        // ];
+
+		// dd($data);
+		
+		$this->SiswaModel->save([
+			
+
+            'nisn' => $this->request->getVar('username'),
+				'nama' => $this->request->getVar('nama'),
+				'alamat' => $this->request->getVar('alamat'),
+				'kd_kelas' => $this->request->getVar('kd_kelas'),
+				'tgl_lahir' => $this->request->getVar('tgl_lahir'),
+				'foto' => $namaFoto
+        ]);
 
 		if ($this->config->requireActivation !== null)
 		{

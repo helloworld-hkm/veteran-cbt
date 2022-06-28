@@ -30,7 +30,7 @@
                                 </div>
                                 <form class="user" action="<?= route_to('login-admin') ?>" method="POST">
                                     <div class="form-group">
-                                        <input type="text" name="login" class="form-control form-control-user <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>" id="InputUsername" aria-describedby="emailHelp" placeholder="NISN">
+                                        <input type="text" name="login"  class="form-control form-control-user <?php if (session('errors.login')) : ?>is-invalid<?php endif ?>" id="InputUsername" aria-describedby="emailHelp" placeholder="NISN">
                                         <div class="invalid-feedback">
                                             <?= session('errors.login') ?>
                                         </div>

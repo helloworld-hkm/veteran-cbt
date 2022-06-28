@@ -4,7 +4,7 @@
 
 <div class="jumbotron jumbotron-fluid mt-n5 text-light bg-primary pt-4">
   <div class="container">
-    <h1 class="display-6 mt-4">Selamat Datang <?=user()->username;?></h1>
+    <h1 class="display-6 mt-4">Selamat Datang <?= $siswa['nama']; ?></h1>
     <p class="lead">Semoga aktivitas belajarmu menyenangkan.</p>
     <div class="row">
 
@@ -40,26 +40,27 @@
   <div class="card-body">
     <div class="row">
         <div class="col-md-4 text-center mt-md-4">
-            <img src="<?=base_url()?>/img/logo-veteran.png" width="109px" alt="" srcset="">
+            <img src="<?=base_url()?>/img/<?=$siswa['foto']?>" width="109px" alt="" srcset="">
         </div>
         <div class="col-md-8">
         <table class="table">
   <tr>
 
   </tr>
+  
   <tr>
     <td>nisn</td>
-    <td><?=user()->username?></td>
+    <td><?= $siswa['nisn']; ?></td>
    
   </tr>
   <tr>
     <td>Nama</td>
-    <td>Francisco Chang</td>
+    <td><?= $siswa['nama']; ?></td>
   
   </tr>
   <tr>
     <td>ttl</td>
-    <td>Roland Mendel</td>
+    <td><?= $siswa['tgl_lahir']; ?></td>
 
   </tr>
 
