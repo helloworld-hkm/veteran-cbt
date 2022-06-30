@@ -68,12 +68,12 @@ class NothingPersonalValidator extends BaseValidator implements ValidatorInterfa
     protected function isNotPersonal($password, $user)
     {
         $userName = \strtolower($user->username);
-        $email = \strtolower($user->email);
+        // $email = \strtolower($user->email);
         $valid = true;
 
         // The most obvious transgressions
         if($password === $userName ||
-            $password === $email ||
+            // $password === $email ||
             $password === strrev($userName))
         {
             $valid = false;
@@ -87,14 +87,14 @@ class NothingPersonalValidator extends BaseValidator implements ValidatorInterfa
             $needles = $this->strip_explode($userName);
 
             // extract local-part and domain parts from email as separate needles
-            [$localPart, $domain] = \explode('@', $email);
-            // might be john.doe@example.com and we want all the needles we can get
-            $emailParts = $this->strip_explode($localPart);
-            if( ! empty($domain))
-            {
-                $emailParts[] = $domain;
-            }
-            $needles = \array_merge($needles, $emailParts);
+            // [$localPart, $domain] = \explode('@', $email);
+            // // might be john.doe@example.com and we want all the needles we can get
+            // $emailParts = $this->strip_explode($localPart);
+            // if( ! empty($domain))
+            // {
+            //     $emailParts[] = $domain;
+            // }
+            // $needles = \array_merge($needles, $emailParts);
 
             // Get any other "personal" fields defined in config
             $personalFields = $this->config->personalFields;

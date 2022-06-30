@@ -290,7 +290,7 @@ class AuthController extends Controller
 		// Validate basics first since some password rules rely on these fields
 		$rules = [
 			'username' => 'required|alpha_numeric_space|min_length[3]|max_length[30]|is_unique[users.username]',
-			'email'    => 'required|valid_email|is_unique[users.email]',
+			// 'email'    => 'required|valid_email|is_unique[users.email]',
 			// 'nisn' => ['rules' => 'required|is_unique[siswasmk.nisn]', 'errors' => ['is_unique' => 'NISN Sudah Ada!!', 'required' => 'NISN wajib diisi!!']],
             'nama' => ['rules' => 'required', 'errors' => ['required' => 'Nama wajib diisi!!',]],
             'foto' => [
@@ -400,7 +400,7 @@ class AuthController extends Controller
 		}
 
 		// Success!
-		return redirect()->route('login')->with('message', lang('Auth.registerSuccess'));
+		return redirect()->route('admin/siswa')->with('message', lang('Auth.registerSuccess'));
 	}
 
 	//register guru

@@ -39,7 +39,7 @@ $routes->get('/siswa', 'Siswa::index', ['filter' => 'role:siswa']);
  $routes->get('admin', 'Admin::index', ['filter' => 'roleAdmin:admin']);
  $routes->get('admin/updatedataDataSiswa/(:segment)', 'Admin::updatedataSiswa/$1',['filter' => 'roleAdmin:admin']);
  $routes->get('admin/siswa', 'Admin::siswa', ['filter' => 'roleAdmin:admin']);
- $routes->get('admin/create_siswa', 'Admin::createSiswa',['filter' => 'roleAdmin:admin']);
+//  $routes->get('admin/create_siswa', 'Admin::createSiswa',['filter' => 'roleAdmin:admin']);
 $routes->get('admin/updateSiswa/(:segment)', 'Admin::updateSiswa/$1');
 $routes->delete('admin/delteSiswa/(:num)', 'Admin::deleteSiswa/$1');
 
