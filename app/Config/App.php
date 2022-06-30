@@ -108,7 +108,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $appTimezone = 'America/Chicago';
+    public $appTimezone = 'Asia/Jakarta';
 
     /**
      * --------------------------------------------------------------------------
@@ -198,8 +198,7 @@ class App extends BaseConfig
     /**
      * --------------------------------------------------------------------------
      * Session Match IP
-     * --------------------------------------------------------------------------
-     *
+     * ---------------------------------------------------------------zonew
      * Whether to match the user's IP address when reading the session data.
      *
      * WARNING: If you're using the database driver, don't forget to update

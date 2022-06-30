@@ -46,7 +46,6 @@ class Autoload extends AutoloadConfig
         'app'          =>APPPATH,
        
     ];
-
     /**
      * -------------------------------------------------------------------
      * Class Map

@@ -17,7 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
+    <link rel="stylesheet" href="/css/style.css">
     <link href="<?= base_url(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -112,6 +114,25 @@
 
     <!-- Custom scripts for all pages-->
     <script src="<?= base_url(); ?>/js/sb-admin-2.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url(); ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="<?= base_url(); ?>/js/demo/datatables-demo.js"></script>
+    <script>
+        function labelFoto() {
+            const foto = document.querySelector('#foto');
+            const fotolabel = document.querySelector('.custom-file-label');
+
+            fotolabel.textContent = foto.files[0].name;
+            console( foto);
+            const fileFoto = new FileReader();
+        fileFoto.readAsDataURL(foto.files[0]);
+        
+        }
+
+      
+    </script>
 
 </body>
 

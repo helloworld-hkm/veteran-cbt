@@ -33,9 +33,18 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 //route siswa
 $routes->get('/', 'Siswa::toSiswa', ['filter' => 'role:siswa']);
+$routes->get('/siswa', 'Siswa::index', ['filter' => 'role:siswa']);
 // $routes->get('/siswa', 'Siswa::toSiswa', ['filter' => 'role:siswa']);
 //routeAdmin
  $routes->get('admin', 'Admin::index', ['filter' => 'roleAdmin:admin']);
+ $routes->get('admin/updatedataDataSiswa/(:segment)', 'Admin::updatedataSiswa/$1',['filter' => 'roleAdmin:admin']);
+ $routes->get('admin/siswa', 'Admin::siswa', ['filter' => 'roleAdmin:admin']);
+//  $routes->get('admin/create_siswa', 'Admin::createSiswa',['filter' => 'roleAdmin:admin']);
+$routes->get('admin/updateSiswa/(:segment)', 'Admin::updateSiswa/$1');
+$routes->delete('admin/delteSiswa/(:num)', 'Admin::deleteSiswa/$1');
+
+$routes->get('admin/siswa/(:any)', 'Admin::detailSiswa/$1',['filter' => 'roleAdmin:admin']);
+
  
 /*
  * --------------------------------------------------------------------
